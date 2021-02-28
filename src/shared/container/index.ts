@@ -1,4 +1,4 @@
-import { container, inject } from 'tsyringe';
+import { container } from 'tsyringe';
 
 import ICustomersRepository from '@modules/customers/repositories/ICustomersRepository';
 import CustomersRepository from '@modules/customers/infra/typeorm/repositories/CustomersRepository';
